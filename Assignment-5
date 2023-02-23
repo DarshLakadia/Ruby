@@ -1,0 +1,15 @@
+Exercise:
+-calculate your exact age by taking default birthday(year,month,date,hours and min)
+and the output will be - i.e 21 year, 2 month, 10 days, 12 hours and 40 min.
+
+
+- create the resume using File functions and taking the values from user and append it the the resume
+
+One more exercise:
+
+- Write Program that using date-time ruby operations and ranges, accept start year, end year and date, and program will check that given date is inside that start year and end year or not, also pass date in string like this: "Tue, 10 Aug 2010"
+- it should return output like following:
+ start year: 2010,
+ end year: 2020,
+ date: "Tue, 10 Aug 2010"
+ Yes, 10-08-2010 is between 01-01-2010 to 01-01-2020
