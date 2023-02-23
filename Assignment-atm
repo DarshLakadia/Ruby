@@ -1,0 +1,15 @@
+1. Create an ATM system using Ruby that allows customers to access their bank account. The program should use attribute accessor, module, proc, lambda, and classes to provide a secure and user-friendly experience for customers.
+
+Here's a suggested structure for the program:
+
+Create a Bank module that contains two classes: Account and ATM.
+
+The Account class should represent a customer's bank account and should have an initialize method that sets the initial balance. It should also have deposit and withdraw methods that allow customers to deposit or withdraw money.
+
+The ATM class should represent the ATM machine that customers interact with. It should have an initialize method that takes an Account object as a parameter. It should also have a start method that prompts customers for their PIN, and a show_options method that displays the available options for checking the balance, depositing, and withdrawing.
+
+When the customer selects an option to deposit or withdraw, use a proc or lambda to execute the corresponding method on the Account object.
+
+Use attribute accessor in the Account class to ensure that the balance can be accessed and modified by other classes.
+
+2. Write a Ruby program that uses a Proc to implement a simple calculator. The program should take user input for two numbers and a mathematical operation, and then perform the operation on the numbers using the Proc.
