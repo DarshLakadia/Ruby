@@ -1,0 +1,27 @@
+Assignment1
+1) Create one example of product. There is one shop that have different product
+- user can not change name of the shop
+- all Product have same company
+- get 
+- pass product data like (name, price) etc. display products data using different method
+- ask gst percentage and display price with included gst(local)
+example product price is 100 and entered gst is 5%. then result should be 105
+
+Example
+product= Product.new('keyboard', 100)
+product.get_user
+
+OUTPUT
+
+enter your name
+swati
+enter gst
+5
+
+Welcome swati. Your invoice with 5% gst are below
+
+product details
+keyboard - 105
+
+=================================================================================
+2) create two class user and comapny. that 2 are in the same city. create one method to display city 
