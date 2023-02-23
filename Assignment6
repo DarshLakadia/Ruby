@@ -1,0 +1,34 @@
+(Note: 
+  + Use Proc/Lambda in both programs.
+  + I will change data while testing. these are just to illustrate definition.)
+
+1. Create a text file called `array.txt` with content given below(NoCoding)
+   [0, 1, 6, 3, 5, 8, 2, 4, 1, 0, 2, 5, 6, 8, 9, 2, 7]
+
+   Now, Create a program to read that array stored in the file.
+   find out count of each unique element and 
+   stored it in a hash if count is greater than 1 else append/stored in new file called output.txt
+
+   Output should be:
+   (on console):
+   {0=>2, 1=>2, 6=>2, 5=>2, 8=>2, 2=>3}
+   (in `output.txt`):
+   {3=>1, 4=>1, 9=>1, 7=>1}
+
+2. Create a text file called `phonebook.txt` with content given below(NoCoding)
+   {'Ajay': '987643210', 'Shahrukh': '9876543211', 'Amitabh': '987654323'}
+
+   Now, create a program to read the hash stored in the file.
+   and give options to user
+    to find out phone number with person's name.
+    to save new number with name.
+    to delete number by name or by number if present(give sub options for selecting by number or by name).
+   Update file `phonebook.txt` with new hash details.
+   (Put validations: Person name should be unique, Number should be unique)
+
+3. Sort a hash by the values of another array. (Try to use logic instead of readymade methods)
+   Input:
+     elements = ['two', 'three', 'one']
+     hash_to_be_sorted = {'three' => 3, 'two' => 2, 'one' => 1}
+   Output:
+     {'two'=>2, 'three'=>3, 'one'=>1}
