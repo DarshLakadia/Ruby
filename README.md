@@ -1,2 +1,2 @@
 # Ruby Training 
-## In this repository , completed all the assignments which were given by trainers.
+### In this repository , completed all the assignments which were given by trainers.
